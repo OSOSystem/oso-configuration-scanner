@@ -1,0 +1,19 @@
+INSERT INTO configuration VALUES (
+    'reachfar_v16',
+    ',',
+    1,
+    10,
+    '',
+    13,
+    'Emergency',
+    'TCP',
+    'CALL',
+    '^\*.*#$',
+    5,
+    '',
+    7,
+    '',
+    FALSE,
+    '',
+    ''
+);
