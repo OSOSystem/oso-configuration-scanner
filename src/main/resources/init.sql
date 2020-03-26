@@ -1,6 +1,6 @@
 CREATE TYPE sendType AS ENUM ('Emergency', 'Update', 'Geofencing');
 CREATE TYPE transport AS ENUM ('*', 'HTTP', 'TCP', 'SMS');
-CREATE TYPE replyChannel AS ENUM ('Nothing', 'Call', 'SMS', 'App');
+CREATE TYPE replyChannel AS ENUM ('Nothing', 'Call', 'SMS', 'Message');
 
 CREATE TABLE configuration (
     name varchar(255) NOT NULL,

@@ -7,7 +7,7 @@ INSERT INTO configuration VALUES (
     13,
     'Emergency',
     'TCP',
-    'CALL',
+    'Call',
     '^\*.*#$',
     5,
     '',

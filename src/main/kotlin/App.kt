@@ -25,5 +25,6 @@ fun main() {
         sqlOfConfigurations.forEach {
             statement.executeUpdate(it.readText())
         }
+        println("Written ${newConfigurations.size} new configurations into the database!")
     }
 }
