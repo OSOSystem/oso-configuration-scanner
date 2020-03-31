@@ -1,0 +1,19 @@
+INSERT INTO configuration VALUES (
+    'rf_v18',
+    ',',
+    1,
+    10,
+    '',
+    13,
+    'Emergency',
+    '*',
+    'Call',
+    '^\*.*#$',
+    5,
+    '',
+    7,
+    '',
+    FALSE,
+    '',
+    ''
+);
